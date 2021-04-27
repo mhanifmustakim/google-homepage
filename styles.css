@@ -136,3 +136,26 @@ form{
     padding: 10px 10px;
     border-radius: 20px;
 }
+
+@media (max-width: 750px){
+    .freq-container{
+        width: 80vw;
+        max-width: 500px;
+        font-size: 15px;
+        margin: 30px auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 550px){
+    input[type="search"], input[type="search"]:focus-visible{
+        outline: none;
+        background-color: transparent;
+        border: none;
+        width: 50vw;
+        position: relative;
+        top: -7px
+    }
+}
