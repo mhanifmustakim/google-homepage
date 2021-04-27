@@ -12,43 +12,45 @@
 
 <body>
     <nav>
-        <button>Gmail</button>
-        <button>Images</button>
-        <button>Options</button>
-        <button>
+        <a href="#"><span class="nav-link">Gmail</span></a>
+        <a href="#"><span class="nav-link">Images</span></a>
+        <a href="#"><span class="nav-link">Options</span></a>
+        <span class="nav-link nav-img">
             <span class="material-icons">
                 account_circle
             </span>
-        </button>
+        </span>
     </nav>
     <main>
         <img class="logo-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
             alt="The Google Logo">
         <form action="#">
-            <span class="material-icons">
-                search
-            </span>
-            <input type="search">
-            <span class="material-icons">
-                mic
-            </span>
+            <label for="search-bar">
+                <span class="material-icons">
+                    search
+                </span>
+                <input id="search-bar" type="search" placeholder="Search Google or Type URL here :)">
+                <span class="material-icons">
+                    mic
+                </span>
+            </label>
         </form>
-        <div class="freq-visited">
-            <img src="" alt="">
-            <p>FREQ-VISITED-1</p>
-        </div>
-        <div>
+        <div class="freq-container">
             <div class="freq-visited">
-                <img src="" alt="">
-                <p>FREQ-VISITED-2</p>
+                <span class="img-bg"><img src="" alt=""></span>
+                <p>Facebook</p>
             </div>
             <div class="freq-visited">
-                <img src="" alt="">
-                <p>FREQ-VISITED-3</p>
+                <span class="img-bg"></span><img src="" alt=""></span>
+                <p>Github</p>
             </div>
             <div class="freq-visited">
-                <img src="" alt="">
-                <p>FREQ-VISITED-4</p>
+                <span class="img-bg"></span><img src="" alt=""></span>
+                <p>Youtube</p>
+            </div>
+            <div class="freq-visited">
+                <span class="img-bg"></span><img src="" alt=""></span>
+                <p>The Odin Project</p>
             </div>
         </div>
     </main>
